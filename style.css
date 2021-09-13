@@ -1,0 +1,104 @@
+html {
+	border: none;
+	margin: none;
+	padding: none;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 13px;
+	color: hsl(238, 29%, 16%);
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	display: flex;
+	width: 921px;
+	height: 509px;
+	background-color: white;
+	border-radius: 25px;
+}
+
+.images-container {
+	position: relative;
+	width: 470px;
+}
+
+.overflow-hidden {
+	position: absolute;
+
+	width: 470px;
+	height: 100%;
+
+	overflow: hidden;
+}
+
+.img-background {
+	position: absolute;
+	left: -580px;
+	top: -300px;
+}
+
+.img-woman {
+	position: absolute;
+	left: -80px;
+	top: 80px;
+}
+
+.img-box {
+	position: absolute;
+	left: -92px;
+	top: 215px;
+	z-index: 10;
+}
+
+.text-container {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
+}
+.sub-group {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.main-heading {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.subheading {
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.arrow {
+	width: 10px;
+	height: 7px;
+}
+
+.grey-line {
+	width: 100%;
+	height: 1px;
+	background-color: hsl(240, 5%, 91%);
+}
+
+.hidden {
+	display: none;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
